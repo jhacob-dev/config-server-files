@@ -41,8 +41,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
-      base-path: /actuator
+        include: '*'
+      #base-path: /actuator
   info:
     env:
       enabled: true
